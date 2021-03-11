@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Using Internal CSS</title>
+        <style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+        <style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+    </head>
+<body>
+<h1>Torneo de videojuegos</h1>
+<p>Llevamos a cabo el torneo de videojuegos para el mes de Abrl del 2021.</p>
+<p>Tenga en cuenta que las siguiente fechas en que se desarrollará el torneo:</p>
+<ul>
+   <li>FIFA 18</li>
+   <li>Fortnite.</li>
+   <li>age of Empires</li>
+</ul>
+<table>
+    <tr class="head">
+        <th></th>
+        <th>Molinos</th>
+        <th>Bochica</th>
+        <th>Diana Turbay</th>
+    </tr>
+    <tr>
+        <th>FIFA 18</th>
+        <td>Tue, 6 Apr 2021<br />6pm - 10pm</td>
+        <td>Sat, 10 Apr 2021<br />1pm - 6pm</td>
+        <td>Sun, 11 Apr 2021<br />1pm - 6pm</td>
+    </tr>
+    <tr class="even">
+        <th>Fortnite</th>
+        <td>Tue, 13 Apr 2021<br />6pm - 10pm</td>
+        <td>Sat, 17 Apr 2021<br />1pm - 6pm</td>
+        <td>Sun, 18 Apr 2021<br />1pm - 6pm</td>
+    </tr>
+    <tr>
+        <th>Age of Empires</th>
+        <td>Tue, 20 Apr 2021<br />6pm - 10pm</td>
+        <td>Sat, 24 Apr 2021<br />1pm - 6pm</td>
+        <td>Sun, 25 Apr 2021<br />1pm - 6pm</td>
+    </tr>
+</table>
+<form action"http://www.example.com/form.php" method="get">
+    <fieldset>
+        <legend>Registrese en el juego de su interés:</legend>
+        <p><label class="title" for="name">Su Nombre:</label>
+            <input type="text" name="name" id="name"><br />
+            <label class="title" for="email">Su correo:</label>
+            <input type="text" name="email" id="email"></p>
+        <p><label for="location" class="title">Su punto cercano:</label>
+             <Select name="location" id="location">
+                 <option value="ny">Molinos</option>
+                 <option value="il">Bochica</option>
+                 <option value="ca">Diana Turbay</option>
+             </select></p>
+        <span class="title">Es Miembro de la Comunidad?</span>
+        <label><input type="radio" name="member" value="yes" /> Si</label>
+        <label><input type="radio" name="member" value="no" /> NO</label></p>
+        </fieldset>
+    <div class="submit"><input type="submit" value="Registro" /></div>
+</form> 
+</body>
+</html>

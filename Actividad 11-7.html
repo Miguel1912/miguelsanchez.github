@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> How CSS Rules Cascade</title>
+        <style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+        <style type="text/css">
+            * {
+                font-family: Arial, Verdana, sans-serif;}    
+            hl {
+                font-family: "Courier New", Courier, monospace;}
+            i {
+                color: green;}
+            i {
+                color: red;}
+            b {
+                color: pink;}
+            p b {
+                color: blue !important;}
+            p b {
+                color: violet;}
+            p#intro {
+                font-size: 100%;}
+            P {
+                font-size: 75%;}
+        </style>    
+    </head>
+    <body>
+        <h1>Gamers</h1>
+        <p id="intro">Hay <i> mucha </i> variedad <b>gamers</b>.</p>
+        <P>Por lo general se conocen: experto, novatos, profesionales.</P>
+    </body>
+</html>

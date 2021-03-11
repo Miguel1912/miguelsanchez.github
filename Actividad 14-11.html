@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border Radius - Elliptical  Shapes</title>
+        <style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+        <style type="text/css">
+            p.border {border: 5px solid #ee3e80; padding: 10px;  width: 300px; 
+                      border-radius: 10px;
+                      -moz-border-radius: 10px;
+                      -webkit-border-radius: 10px;}
+            p {border: 5px solid #ee3e80; padding: 10px;  width: 300px; height: 70px;
+                      display: inline-block;
+                      margin: 20px;}
+            p.one {border-top-left-radius: 80px 50px;
+                   -moz-border-radius-top-left: 80px 50px;
+                   -webkit-border-radius-top-left: 80px 50px;}
+            p.two {border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em; 
+                   -moz-border-radius:1em 4em 1em 4em / 2em 1em 2em 1em;
+                   -webkit-border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;}
+            p.three { padding: 0px; border-radius: 100px; -moz-border-radius: 10px; -webkit-
+                    border-radius: 100px;}
+         </style>    
+     </head>
+     <body>
+         <p class="border"> El torneo Desafío de Trinidad se celebrará el domingo 14 de marzo de 2021, 
+            y se jugará en un formato de Tríos. </p>
+         <br />
+         <p>Los participantes tendrán hasta tres horas para jugar hasta 
+         diez partidas distintas en las que tendrán que conseguir la mayor cantidad de puntos</p>
+         <br />  
+         <p class="one"></p>
+         <p class="two"></p>
+         <p class="three"></p>
+    </body>
+</html>

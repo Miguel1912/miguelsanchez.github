@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Empty Cells - Gaps Between Cells</title>
+        <style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+        <style type="text/css">
+            td.up {border: 1px solid #001522; padding: 15px;}
+            table.one { empty-cells: show;}
+            table.two { empty-cells: hide;}
+            td.down { background-color: #0088dd; padding: 15px; border: 2px solid #000000;}
+            table.three {border-spacing: 5px 15px;}
+            table.four { border-collapse: collapse;}
+        </style>    
+    </head>
+    <body>
+        <table class="one">
+            <tr> <td class="up">Lucha</td> <td class="up">Aventura</td> </tr>
+            <tr> <td class="up">Futbol</td> <td class="up">Estrategia</td> </tr>
+            </table>
+            <br />
+         <table class="two   ">
+            <tr> <td class="up">15</td> <td class="up">22</td> </tr>
+            <tr> <td class="up">25</td> <td class="up">14</td> </tr>
+         </table>
+         <p>En el primer tablero se especifican las categorías de juego
+               mientras que en la segunda, la cantidad de videogamers a participar.<br />
+               los cuales se enfrentarán para elegir a los semifinalistas</p>
+            <br />
+         <table class="three">
+            <tr> <td class="down">4</td> <td class="down">6</td> </tr>
+            <tr> <td class="down">8</td> <td class="down">4</td> </tr>
+         </table>
+         <table class="four">
+            <tr> <td class="down">2</td> <td class="down">2</td> </tr>
+            <tr> <td class="down">2</td> <td class="down">2</td> </tr>
+         </table>
+         <p>En la siguiente tabla, se seleccionarán los semifinalistas, quienes competirán entre si
+            con el fin de elegir los grandes finalistas de cada categoria.
+            Se seleccionaran dos finalistas de cada categoría.</p>
+    </body>
+</html>
